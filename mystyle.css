@@ -1,0 +1,272 @@
+body {
+    background-color: #7A072A;
+    font-family: Helvetica;
+}
+
+.vertically {
+    /* writing-mode: vertical-lr; */
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 4px;
+    word-spacing: 3px;
+    position: relative;
+    top: 70px;
+    left: 60px;
+    /* margin: auto; */
+}
+/******************************** HEADER **************************************************/
+
+.header {
+    height: 200px;
+    color: #7A072A;
+    /* border-bottom: 1px solid #707070; */
+    border: 1px solid rgba(160, 88, 88, 0.3);
+}
+
+/******************************** HOME **************************************************/
+
+.home {
+    border: 1px solid rgba(160, 88, 88, 0.3);
+    height: 1500px;
+}
+.homeTop {
+    /* padding-top: 100px; */
+}
+
+.homeBottom {
+    padding-top: 100px;
+}
+.hcol1 {
+    /* border: 1px dotted green; */
+}
+.hcol2 {
+    /* border: 1px dotted blue; */
+}
+.homeTitle {
+    font-size: 55px;
+    color: white;
+    font-weight: bold;
+}
+.homeDescription {
+    font-size: 15px;
+    color: white
+}
+
+.homeButton {
+    color: #7A072A;
+    float: right;
+    border-radius: 4px;
+    width: 125px;
+    height: 37px;
+    font-size: 11px;
+    margin-right: -15px;
+}
+.homeImage {
+    width: 600px;
+    height: 400px;
+    /* width: 793px;
+    height: 553px; */
+    position: relative;
+    left: -45px;
+    top: -60px;
+}
+.box {
+    border: 1px solid #BFBFBF;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    /* width: 390px;
+    height: 285px; */
+    background-color: white;
+    color: grey;
+}
+.box, h2 {
+    font-size: 24px;
+}
+.box, p {
+    /* text-align: center; */
+    font-size: 15px;
+}
+.box img {
+    display:block;
+    margin:auto;
+}
+.boxRow1 {
+    width: 100%;
+    height: 100px;
+}
+.boxRow2 {
+    width: 100%;
+    height: 90px;
+}
+.boxRow3 {
+    width: 100%;
+    height: 100px;
+}
+/******************************** About Us **************************************************/
+
+.aboutUs {
+    border: 1px solid rgba(160, 88, 88, 0.3);
+    height: 500px;
+    padding-top: 75px;
+    color: #FFFFFF;
+}
+.aboutUs p {
+    font-size: 14px;
+}
+.aboutUs h4 {
+    font-size: 26px;
+}
+.downloadButton {
+    height: 41px;
+    width: 173px;
+    background-color: #7A072A;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 14px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    float: left;
+}
+.myCol1 {
+    /* border: 1px solid blue; */
+    margin-left: -20px;
+}
+.myCol2 {
+    /* border: 1px solid blue; */
+    margin-left: 40px;
+}
+.myRow1 {
+    /* margin: auto; */
+    /* border: 1px dotted green; */
+    height: 50%;
+    border-bottom: 1px solid grey;
+}
+.myRow2 {
+    /* border: 1px dotted black; */
+    height: 50%;
+}
+.col1 {
+    margin: auto;
+    /* border: 1px dotted rgb(226, 9, 9); */
+}
+.col2 {
+    margin: auto;
+    /* border: 1px dotted rgb(221, 155, 11); */
+}
+.col3 {
+    /* position: relative; */
+    margin: auto;
+    /* margin-right: -10px; */
+    /* float: left; */
+    /* margin-inline-end: auto; */
+    /* border: 1px dotted rgb(247, 17, 158); */
+}
+
+/******************************** Testimonials **************************************************/
+.testimonials {
+    /* border-bottom: 1px solid #707070; */
+    color: #FFFFFF;
+    padding-top: 75px;
+    height: 500px;
+}
+.thisCol1 {
+    /* border: 1px solid black; */
+    margin-left: -20px;
+}
+.thisCol2 {
+    /* border: 1px solid black; */
+}
+.testimonialImage {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.trow1 {
+    /* border: 1px dotted red; */
+    height: 40px;
+}
+.trow2 {
+    /* border: 1px dotted blue; */
+    height: 40px;
+}
+.trow3 {
+    /* border: 1px dotted green; */
+    height: 50px;
+    /* margin: auto; */
+}
+.trow4 {
+    /* border: 1px dotted orange; */
+}
+
+/******************************** Contact Us **************************************************/
+
+.contactUs {
+    background-color: #34373C;
+    height: 500px;
+    padding-top: 75px;
+    color: #FFFFFF;
+}
+.cuul {
+    margin-left: -20px;
+}
+.ccol3 li {
+    font-size: 13px;
+    line-height: 30px !important;
+}
+.ccol1 li {
+    list-style: none;
+    display: inline-block;
+}
+
+.contactUs a {
+    color:#ffffff;
+}
+.contactUs input {
+    background-color: #FFFFFF;
+    border-radius: 0px !important;
+    color: #9297A0;
+}
+.contactUs textarea {
+    background-color: #FFFFFF;
+    border-radius: 0px !important;
+    color: #9297A0;
+}
+.mapImage {
+    width: 340px;
+    height: 247px;
+    margin-left: -70px;
+}
+.cuButton {
+    border: 2px solid #FFFFFF;
+    width: 84px;
+    height: 34px;
+    color: #FFFFFF;
+    background-color: #34373C;
+}
+.ccol1 {
+    padding-top: 16px;
+    margin-left: -20px;
+    border-top: 1px solid #EDEDED;
+}
+.ccol2 {
+    padding-top: 16px;
+    /* margin-left: -70px; */
+    border-top: 1px solid #EDEDED;
+}
+.ccol3 {
+    padding-top: 16px;
+    border-top: 1px solid #EDEDED;
+}
+.ccol4 {
+    padding-top: 16px;
+    border-top: 1px solid #EDEDED;
+}
+.grey {
+    color: #AFAFAF;
+}
